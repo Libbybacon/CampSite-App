@@ -41,6 +41,7 @@ I used beautiful soup to scrape the Oregon National Forest Website, and parsed t
 
 
 ### Connect to National Parks API and parse through JSON
+I connected to the National Parks API, got the JSON response, and created a template to display information about all national park campsites.  When users type in a national park name, a view function parses their entry and creates a four-letter code corresponding to that park.  That code is then used to search through the details of that park to extract information pertaining to campsites there and display them for the user.  Unfortunatly I was unable to complete this section during the time of this project, but I am continuing to build this out on my own so check back soon for an updated version!
 ![](ReadMeImages/api1.png)
 ![](ReadMeImages/api2.png)
 
